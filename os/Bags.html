@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>	
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	</head>
+	<body>
+	<div id="menu">
+			<ul>
+				<a href="home.html"><li id="home">&gt;&gt; Home</li></a>
+				<a href="Bags.html"><li id="bags">&gt;&gt; Bags</li></a>
+				<a href="Shoes.html"><li id="shoes">&gt;&gt; Shoes</li></a>
+			</ul>			
+		</div>		
+	<div id="display">
+			<div id="displayHome">
+				<div id="icon">
+					<img id="showMenu" src="images/menu-icon.png" />
+				</div>
+				<div>
+					<img id="imgHeader" src="images/head2.png" />
+				</div>				
+		<form method="GET" action="" id="itemsList">
+		<div id="cat1">	
+			<label>
+				<div>
+					<div class="imgCheckbox">
+						<input type="checkbox" name="bagItem" value="100<br/>" class="product"  id="Bag1<br/>" />
+						<img src="images/bags/bag1.jpg" width="10%" />
+					</div>
+					<div class="details">
+						<span>Bag 1</span></br>
+						<label>$100</label>
+					</div>	
+				</div>
+			</label>
+		</div>
+		<div id="cat1">
+			<label>
+				<div>
+					<div class="imgCheckbox">
+						<input type="checkbox" name="bagItem" value="200<br/>" class="product" id="Bag2<br>" />
+						<img src="images/bags/bag2.jpg" width="10%"/>
+					</div>
+					<div class="details">
+						<span>Bag 2</span></br>
+						<label>$200</label>					
+					</div>	
+				</div>
+			</label>
+		</div>
+		<div id="cat1">
+			<label>
+				<div>
+					<div class="imgCheckbox">
+						<input type="checkbox" name="bagItem" value="300<br/>" class="product"  id="Bag3<br/>"/>
+						<img src="images/bags/bag3.jpg" width="10%" />
+					</div>
+					<div class="details">
+						<span>Bag 3</span></br>
+						<label>$300</label>
+					</div>	
+				</div>
+			</label>
+		</div>
+		<div id="cat1">
+			<label>
+				<div>
+					<div class="imgCheckbox">
+						<input type="checkbox" name="bagItem" value="400<br/>" class="product"  id="Bag4<br/>" />
+						<img src="images/bags/bag4.jpg" width="10%" />
+					</div>
+					<div class="details">
+						<span>Bag 4</span></br>
+						<label>$400</label>
+					</div>	
+				</div>
+			</label>
+		</div>
+		<div id="cat1">
+			<label>
+				<div>
+					<div class="imgCheckbox">
+						<input type="checkbox" name="bagItem" value="500<br/>" class="product"  id="Bag5<br/>" />
+						<img src="images/bags/bag5.jpg" width="10%" />
+					</div>
+					<div class="details">
+						<span>Bag 5</span></br>
+						<label>$500</label>
+					</div>	
+				</div>				
+			</label>
+		</div>
+		
+
+				<!--- The first 5 items will be displayed -->
+	
+			<div id="items">
+			</div>
+			<button id="showMore">Display More Items</button>
+			<img id="addToCart" style="width:200px; float:left;" src="images/addCart2.jpg" />		
+		</div>
+		<div class="clear"></div>			
+		</div>				
+		<div id="leftSideBar">
+			<strong>Cart</strong><br /><br />
+			<strong>List of Selected Items:</strong>
+			<form>
+				<table>
+					<tr>
+						<th>Purchased Item</th>						
+						<th>Price</th>						
+					</tr>					
+					<tr>
+						<td id="labelList"></td>
+						<td id="priceList"></td>
+					</tr>
+											
+				</table><br />				
+				<strong>TOTAL AMOUNT:</strong>
+				<label id="totalAmt">0</label>
+			</form>			
+		</div>		
+	</form>
+	</div>
+	</div>	
+
+		<script type="text/javascript" src="jQuery.js"></script>
+		<script type="text/javascript" src="main.js"></script>				
+	</body>
+</html>
